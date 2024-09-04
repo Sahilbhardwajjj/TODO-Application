@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="Csstodo.css" />
+  </head>
+  <body>
+    <h1>TODO'S</h1>
+    <form onsubmit="addtodo(event)">
+      <input id="inp" placeholder="Enter your Todo's here " />
+      <button type="submit" id="add">ADD</button>
+      <div id="todos"></div>
+    </form>
+    <small> click on Add For Adding new todo<br />Click on X for delete </small>
+
+    <script src="jstodo.js"></script>
+  </body>
+</html>
